@@ -1,0 +1,132 @@
+{
+  "name": "Jayesh Yadav",
+  "title": "Data & AI Engineer",
+  "location": "Bengaluru, India",
+  "tagline": "Building AI systems that automate what shouldn't be manual, solving the real pain points",
+  "contact": {
+    "email": "007jayeshyadav@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/007jayesh/",
+    "medium": "https://medium.com/@007jayeshyadav",
+    "phone": "701-494-3090"
+  },
+  "experience": [
+    {
+      "company": "Quantifai.ai",
+      "subtitle": "AI-Powered Reconciliation & Finance Automation",
+      "role": "Data & AI Engineer",
+      "period": "Feb 2025 \u2014 Present",
+      "headline": "AI Engineer Builds Reconciliation Engine Processing 1M+ Transactions Daily",
+      "projects": [
+        {
+          "name": "VC Fund Reconciliation Engine",
+          "category": "DOCUMENT AI",
+          "headline": "Zero False Positives Across 10,000+ Transactions",
+          "description": "End-to-end document processing for capital call PDFs and bank statements with 100% accuracy. Docling-first + LLM fallback architecture reducing processing costs by 70% while maintaining zero false positives across 10,000+ daily transactions.",
+          "tech": ["Python", "Docling", "LLM", "NER", "Pydantic"],
+          "impact": ["100% accuracy", "70% cost reduction", "0% false positives", "40% less manual work"]
+        },
+        {
+          "name": "Browser-to-API Platform",
+          "category": "PLATFORM ENGINEERING",
+          "headline": "30+ Vendors Connected, 1M+ Daily Transactions",
+          "description": "Proprietary engine converting web portals into programmable APIs with auto-generated Python SDKs. Email ingestion agent for vendor settlement data extraction. Onboarding reduced from 2 weeks to 2 days.",
+          "tech": ["Python", "Selenium", "SDK Generation", "Email Parsing"],
+          "impact": ["30+ vendors", "1M+ txns/day", "150+ hrs/month saved", "2 weeks to 2 days onboarding"]
+        },
+        {
+          "name": "Data Fabric & Self-Healing Pipelines",
+          "category": "AI AGENTS",
+          "headline": "AI Agent Auto-Resolves Schema Drift",
+          "description": "Zero-code onboarding with auto-generated parsers and sandbox testing. AI Agent detects schema drift, self-heals pipelines, and sends root-cause alerts. Targeting 95% auto-resolution with zero developer dependency.",
+          "tech": ["AI Agents", "LLM", "Python", "Sandboxed Execution"],
+          "impact": ["95% auto-resolution target", "Zero developer dependency for rule changes"]
+        },
+        {
+          "name": "Email Ingestion Agent",
+          "category": "AUTOMATION",
+          "headline": "Settlement Data Extracted from Vendor Emails Automatically",
+          "description": "Intelligent email parsing agent that automatically extracts settlement data from vendor communications, eliminating manual data entry and reducing processing errors to near-zero.",
+          "tech": ["Python", "NER", "Email Parsing", "LLM"],
+          "impact": ["Fully automated extraction", "Near-zero errors"]
+        }
+      ]
+    },
+    {
+      "company": "Log9 Materials",
+      "subtitle": "EV Battery Technology",
+      "role": "Data & AI Engineer",
+      "period": "Mar 2023 \u2014 Jan 2025",
+      "projects": [
+        {
+          "name": "CellView",
+          "category": "FULL-STACK ANALYTICS",
+          "headline": "Automated Battery Analytics Platform",
+          "subheadline": "Replaced Voltaiq ($200K+/yr SaaS)",
+          "description": "Full-stack battery analytics with automated data pipelines from cyclers, LLM-powered no-code dashboard, AutoML module. Adopted by 3 departments, processing 500K+ data points daily.",
+          "tech": ["Python", "Streamlit", "LLM", "AutoML"],
+          "impact": ["$200K+/yr saved", "500K+ data points/day", "QC cycle cut 60%"],
+          "pullQuote": "Comparable to Voltaiq ($200K+/yr)"
+        },
+        {
+          "name": "SOH Prediction Model",
+          "category": "MACHINE LEARNING",
+          "headline": "EV Insurance Innovation",
+          "description": "Battery health prediction model enabling insurance companies to replace engine-based premium calculations with data-driven assessments across 1,200+ vehicles.",
+          "tech": ["CatBoost", "Optuna", "Feature Engineering"],
+          "impact": ["98% R\u00b2", "1,200+ vehicles", "$150K ARR partnership"]
+        },
+        {
+          "name": "Battery Pack Viability",
+          "category": "PREDICTIVE MODELING",
+          "headline": "Manufacturing Optimization",
+          "description": "Meta-model predicting pack pass/fail before assembly, reducing rework by 35% and cutting analysis time from 8 hours to 15 minutes.",
+          "tech": ["Random Forest", "BiLSTM", "KNN Imputation"],
+          "impact": ["R\u00b2 = 0.93", "8 hrs to 15 min", "35% less rework", "$80K/yr saved"]
+        }
+      ]
+    },
+    {
+      "company": "KPMG",
+      "subtitle": "Data Analytics Consulting",
+      "role": "Data Analytics Consulting Intern",
+      "period": "Nov 2022 \u2014 Mar 2023",
+      "headline": "15,000+ Data Inconsistencies Rectified, Reporting Cut from 5 Days to 1",
+      "projects": [
+        {
+          "name": "Client Data Integrity Overhaul",
+          "category": "DATA QUALITY",
+          "headline": "Data Integrity Elevated from 72% to 96%",
+          "description": "Identified and rectified 15,000+ data inconsistencies across 3 client datasets, raising data integrity from 72% to 96%. Built validation frameworks ensuring ongoing accuracy.",
+          "tech": ["Python", "SQL", "Pandas", "Data Validation"],
+          "impact": ["15,000+ fixes", "72% to 96% integrity", "3 client datasets"]
+        },
+        {
+          "name": "Automated Reporting Pipeline",
+          "category": "AUTOMATION",
+          "headline": "Reporting Turnaround: 5 Days to 1 Day",
+          "description": "Built automated pipelines in Python and SQL that replaced manual reporting workflows, reducing turnaround from 5 days to 1 day and influencing $2M+ in business decisions.",
+          "tech": ["Python", "SQL", "ETL", "Automation"],
+          "impact": ["5 days to 1 day", "$2M+ decisions influenced", "80% faster reporting"]
+        }
+      ]
+    }
+  ],
+  "entrepreneurial": {
+    "name": "Neuracer",
+    "description": "Procurement Automation SaaS for SMB manufacturers",
+    "features": ["Three-Way Matching", "LLM Document Extraction", "GST Compliance", "ERP Integrations"],
+    "note": "Full-stack, AI-assisted development"
+  },
+  "education": [
+    { "institution": "IIT Madras", "degree": "Diploma in Data Science", "cgpa": "8.1" },
+    { "institution": "UCE&T, RTU", "degree": "B.Sc. Computer Science", "cgpa": "7.4" }
+  ],
+  "techStack": [
+    "Python", "SQL", "FastAPI", "Streamlit", "Pydantic", "React",
+    "LLM Pipelines", "Gen AI", "NER", "CatBoost", "BiLSTM", "AutoML", "RAG", "AI Agents",
+    "Docling", "Browser-to-API", "Reverse Engineering", "ETL", "Self-Healing Pipelines", "Selenium",
+    "Git", "Docker", "PostgreSQL", "MongoDB", "Redis", "Linux", "AWS", "Pandas", "NumPy",
+    "Scikit-Learn", "TensorFlow", "LangChain", "OpenAI API", "Jupyter", "Airflow",
+    "REST APIs", "GraphQL", "CI/CD", "Terraform", "Cursor", "Claude Code"
+  ]
+}

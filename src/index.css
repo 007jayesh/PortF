@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/* ── Newspaper Design System ─────────────────────────── */
+
+:root {
+  --bg-primary: #FAFAF5;
+  --bg-secondary: #F0EDE5;
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A4A4A;
+  --text-muted: #8A8A8A;
+  --accent: #B8860B;
+  --rule-color: #D0CBC0;
+  --black: #000000;
+
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Source Sans 3', 'Source Sans Pro', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  --section-gap: 120px;
+  --column-gap: 40px;
+  --card-padding: 32px;
+  --content-gap: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
+/* ── Typography ─────────────────────────────────────── */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+}
+
+/* ── Utility: Square aspect ratio ───────────────────── */
+
+.square {
+  aspect-ratio: 1 / 1;
+}
+
+/* ── Ruled Lines ────────────────────────────────────── */
+
+.rule {
+  border: none;
+  border-top: 1px solid var(--rule-color);
+  width: 100%;
+}
+
+.rule-thick {
+  border: none;
+  border-top: 3px solid var(--black);
+  width: 100%;
+}
+
+.rule-double {
+  border: none;
+  border-top: 3px double var(--black);
+  width: 100%;
+}
+
+/* ── Section Labels ─────────────────────────────────── */
+
+.section-label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ── Marquee Animation ──────────────────────────────── */
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  display: flex;
+  animation: marquee 30s linear infinite;
+  width: max-content;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── No border-radius anywhere ──────────────────────── */
+
+*, *::before, *::after {
+  border-radius: 0 !important;
+}
+
+/* ── Selection color ────────────────────────────────── */
+
+::selection {
+  background-color: var(--accent);
+  color: white;
+}
+
+/* ── Scrollbar styling ──────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--rule-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
