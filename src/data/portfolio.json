@@ -111,11 +111,36 @@
       ]
     }
   ],
-  "entrepreneurial": {
-    "name": "Neuracer",
-    "description": "Procurement Automation SaaS for SMB manufacturers",
-    "features": ["Three-Way Matching", "LLM Document Extraction", "GST Compliance", "ERP Integrations"],
-    "note": "Full-stack, AI-assisted development"
+  "neuracer": {
+    "company": "Neuracer",
+    "subtitle": "AI-Powered Procurement Automation for SMB Manufacturers",
+    "role": "Co-Founder",
+    "period": "2025 \u2014 Present",
+    "headline": "Eliminating Manual Procurement Workflows for SMB Manufacturers",
+    "description": "Neuracer automates the entire procure-to-pay cycle for SMB manufacturers \u2014 from purchase order matching to compliant invoice processing. While enterprise solutions dominate the market, Neuracer is purpose-built for manufacturing SMBs that still run procurement on spreadsheets and messaging apps.",
+    "capabilities": [
+      {
+        "name": "Three-Way Matching Agent",
+        "description": "AI agent that autonomously reconciles POs, invoices, and GRNs using intelligent fuzzy matching \u2014 handles partial deliveries, multi-line invoices, and flags discrepancies for review."
+      },
+      {
+        "name": "Invoice Processing Agent",
+        "description": "AI agent that extracts structured data from invoices, POs, and receipts in any format \u2014 scanned PDFs, photos, emails \u2014 with LLM-powered parsing, validation, and auto-routing."
+      },
+      {
+        "name": "Email Ingestion Agent",
+        "description": "AI agent that monitors vendor email threads, extracts invoice attachments and order confirmations, and feeds them directly into the matching pipeline \u2014 zero manual forwarding."
+      },
+      {
+        "name": "Tax Compliance & ERP Sync",
+        "description": "Automated tax invoice matching, input credit tracking, and vendor tax ID verification. Region-aware compliance for GST, VAT, and sales tax with native ERP connectors for QuickBooks, NetSuite, SAP, and Xero."
+      }
+    ],
+    "differentiators": [
+      "80% reduction in procurement processing time",
+      "Multi-language document support",
+      "3x faster invoice-to-payment cycles"
+    ]
   },
   "education": [
     { "institution": "IIT Madras", "degree": "Diploma in Data Science", "cgpa": "8.1" },

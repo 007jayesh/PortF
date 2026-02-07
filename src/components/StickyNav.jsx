@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const sections = [
+  { id: 'classified', label: 'Neuracer' },
   { id: 'lead-story', label: 'Quantifai' },
   { id: 'previous', label: 'Log9' },
   { id: 'kpmg', label: 'KPMG' },
-  { id: 'classified', label: 'Neuracer' },
   { id: 'education', label: 'Education' },
 ]
 

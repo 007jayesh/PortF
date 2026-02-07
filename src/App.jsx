@@ -19,6 +19,12 @@ function App() {
 
       <div style={{ height: 60 }} />
 
+      <div id="classified">
+        <Classified />
+      </div>
+
+      <div style={{ height: 'var(--section-gap)' }} />
+
       <div id="lead-story">
         <LeadStory />
       </div>
@@ -33,12 +39,6 @@ function App() {
 
       <div id="kpmg">
         <KpmgSection />
-      </div>
-
-      <div style={{ height: 'var(--section-gap)' }} />
-
-      <div id="classified">
-        <Classified />
       </div>
 
       <div style={{ height: 80 }} />
